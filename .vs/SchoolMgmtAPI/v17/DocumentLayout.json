@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -17,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,31 +139,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\.gitignore",
-              "RelativeDocumentMoniker": "SchoolMgmtAPI\\.gitignore",
-              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\.gitignore",
-              "RelativeToolTip": "SchoolMgmtAPI\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-29T19:55:10.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\ViewModel\\LoginViewModel.cs",
               "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\LoginViewModel.cs",
               "RelativeToolTip": "SchoolMgmtAPI\\Models\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T18:58:42.669Z"
+              "WhenOpened": "2025-08-29T18:58:42.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\AuthService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\AuthService.cs",
@@ -179,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IAuthService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\IAuthService.cs",
@@ -191,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\EmailService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\EmailService.cs",
@@ -211,8 +195,7 @@
               "RelativeToolTip": "SchoolMgmtAPI\\appsettings.json",
               "ViewState": "AgIAAAcAAAAAAAAAAAAkwBcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-27T15:54:28.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T15:54:28.156Z"
             },
             {
               "$type": "Document",
@@ -228,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Program.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Program.cs",
@@ -252,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\LoginResponse.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\LoginResponse.cs",
@@ -264,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ClassController.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\ClassController.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\ClassController.cs",
@@ -276,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\AppDbContext.cs",
@@ -288,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "SMTPSettings.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\SMTPSettings.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\SMTPSettings.cs",
@@ -300,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IEmailService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\IEmailService.cs",
@@ -312,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\UserService.cs",
@@ -324,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "AddUserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\AddUserViewModel.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\ViewModel\\AddUserViewModel.cs",
@@ -336,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "EmailController.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\EmailController.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\EmailController.cs",
@@ -348,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IUserService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\IUserService.cs",
@@ -360,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "ISchoolService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\ISchoolService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\ISchoolService.cs",
@@ -372,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "SchoolService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\SchoolService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\SchoolService.cs",
@@ -384,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Helper\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Helper\\AutoMapperProfile.cs",
@@ -396,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "APIResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\APIResponseModel.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\APIResponseModel.cs",
@@ -408,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "20250827105901_AddEmailTemplatesTable.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Migrations\\20250827105901_AddEmailTemplatesTable.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Migrations\\20250827105901_AddEmailTemplatesTable.cs",
@@ -420,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "EmailTemplates.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\DbModel\\EmailTemplates.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\DbModel\\EmailTemplates.cs",
@@ -432,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "AddEmailTemplateViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\AddEmailTemplateViewModel.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\ViewModel\\AddEmailTemplateViewModel.cs",
@@ -444,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "ClassService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\ClassService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\ClassService.cs",
@@ -456,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "IClassService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IClassService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\IClassService.cs",
@@ -468,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "RolesController.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\RolesController.cs",
@@ -480,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "RoleService.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\RoleService.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\RoleService.cs",
@@ -492,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "AddSchoolViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\AddSchoolViewModel.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\ViewModel\\AddSchoolViewModel.cs",
@@ -504,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "SchoolController.cs",
               "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\SchoolController.cs",
               "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\SchoolController.cs",
