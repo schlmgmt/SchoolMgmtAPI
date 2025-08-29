@@ -1,0 +1,522 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\iservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\iservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\viewmodel\\adduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\viewmodel\\adduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\helper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\helper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\service\\schoolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\service\\schoolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\iservice\\ischoolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\iservice\\ischoolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\dbmodel\\emailtemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\dbmodel\\emailtemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\migrations\\20250827105901_addemailtemplatestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\migrations\\20250827105901_addemailtemplatestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\apiresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\apiresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\viewmodel\\addemailtemplateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\viewmodel\\addemailtemplateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\service\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\service\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\iservice\\iclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\iservice\\iclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\services\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\services\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|c:\\users\\neeraj\\desktop\\schoolmgmt\\schoolmgmtapi\\schoolmgmtapi\\models\\viewmodel\\addschoolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73994302-886A-4340-991D-65151E4D75A1}|SchoolMgmtAPI\\SchoolMgmtAPI.csproj|solutionrelative:schoolmgmtapi\\models\\viewmodel\\addschoolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\.gitignore",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\.gitignore",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\.gitignore",
+              "RelativeToolTip": "SchoolMgmtAPI\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-29T19:55:10.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Models\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T18:58:42.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\AuthService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\Service\\AuthService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAhwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T18:51:41.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IAuthService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IAuthService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\IService\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T18:51:31.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\EmailService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\Service\\EmailService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwEYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:45:53.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\appsettings.json",
+              "RelativeToolTip": "SchoolMgmtAPI\\appsettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-27T15:54:28.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T19:16:07.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Program.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:56:45.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T08:48:31.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T19:01:37.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\ClassController.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Controllers\\ClassController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T08:45:06.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\AppDbContext.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:46:09.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SMTPSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\SMTPSettings.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\SMTPSettings.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\SMTPSettings.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Models\\SMTPSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:44:22.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IEmailService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IEmailService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\IService\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:45:36.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\UserService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\Service\\UserService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T08:49:02.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\AddUserViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\ViewModel\\AddUserViewModel.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\AddUserViewModel.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Models\\ViewModel\\AddUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T08:50:40.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:43:40.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IUserService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\IService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T08:48:49.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ISchoolService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\ISchoolService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\ISchoolService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\ISchoolService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\IService\\ISchoolService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:41:57.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SchoolService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\SchoolService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\SchoolService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\SchoolService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\Service\\SchoolService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:42:19.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Helper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Helper\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Helper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Helper\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:49:28.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "APIResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\APIResponseModel.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\APIResponseModel.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\APIResponseModel.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Models\\APIResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:52:16.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250827105901_AddEmailTemplatesTable.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Migrations\\20250827105901_AddEmailTemplatesTable.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Migrations\\20250827105901_AddEmailTemplatesTable.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Migrations\\20250827105901_AddEmailTemplatesTable.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Migrations\\20250827105901_AddEmailTemplatesTable.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:59:02.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmailTemplates.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\DbModel\\EmailTemplates.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\DbModel\\EmailTemplates.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\DbModel\\EmailTemplates.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Models\\DbModel\\EmailTemplates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:42:08.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddEmailTemplateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\AddEmailTemplateViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\ViewModel\\AddEmailTemplateViewModel.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\AddEmailTemplateViewModel.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Models\\ViewModel\\AddEmailTemplateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:44:25.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ClassService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\ClassService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\ClassService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\ClassService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\Service\\ClassService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T08:45:40.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IClassService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IClassService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\IService\\IClassService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\IService\\IClassService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\IService\\IClassService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T08:45:27.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:55:10.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\RoleService.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Services\\Service\\RoleService.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Services\\Service\\RoleService.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Services\\Service\\RoleService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:54:17.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddSchoolViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\AddSchoolViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Models\\ViewModel\\AddSchoolViewModel.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Models\\ViewModel\\AddSchoolViewModel.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Models\\ViewModel\\AddSchoolViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:50:00.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SchoolController.cs",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\SchoolController.cs",
+              "RelativeDocumentMoniker": "SchoolMgmtAPI\\Controllers\\SchoolController.cs",
+              "ToolTip": "C:\\Users\\Neeraj\\Desktop\\schoolmgmt\\SchoolMgmtAPI\\SchoolMgmtAPI\\Controllers\\SchoolController.cs",
+              "RelativeToolTip": "SchoolMgmtAPI\\Controllers\\SchoolController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:47:50.314Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
