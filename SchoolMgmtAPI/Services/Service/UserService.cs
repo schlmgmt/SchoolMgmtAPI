@@ -1,11 +1,11 @@
 ﻿using SchoolMgmtAPI.Models.DbModel;
 using SchoolMgmtAPI.Models.ViewModel;
-using SchoolMgmtAPI.Models;
 using SchoolMgmtAPI.Services.IService;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using BCrypt.Net;
 using System.Security.Cryptography;
+using SchoolMgmtAPI.Models.ResponseModel;
 
 namespace SchoolMgmtAPI.Services.Service
 {

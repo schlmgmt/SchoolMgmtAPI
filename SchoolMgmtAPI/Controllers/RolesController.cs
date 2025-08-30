@@ -17,7 +17,7 @@ namespace SchoolMgmtAPI.Controllers
             _roleService = roleService;
         }
 
-        [HttpPost]
+        [HttpPost("AddNewRole")]
         public async Task<IActionResult> CreateRole([FromBody] AddRoleViewModel Request)
         {
             if (string.IsNullOrEmpty(Request.RoleName))

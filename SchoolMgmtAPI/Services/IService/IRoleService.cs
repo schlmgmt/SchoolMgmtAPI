@@ -1,5 +1,5 @@
-﻿using SchoolMgmtAPI.Models;
-using SchoolMgmtAPI.Models.DbModel;
+﻿using SchoolMgmtAPI.Models.DbModel;
+using SchoolMgmtAPI.Models.ResponseModel;
 
 namespace SchoolMgmtAPI.Services.IService
 {

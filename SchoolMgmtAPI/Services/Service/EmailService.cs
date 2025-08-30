@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using MimeKit;
 using MailKit.Net.Smtp;
 using MailKit.Security;
+using SchoolMgmtAPI.Models.ResponseModel;
+using Org.BouncyCastle.Asn1.Ocsp;
+using static System.Net.WebRequestMethods;
 
 namespace SchoolMgmtAPI.Services.Service
 {
@@ -60,6 +63,40 @@ namespace SchoolMgmtAPI.Services.Service
             template = template.Replace("{{FirstName}}", request?.UserName)
                                .Replace("{{UserName}}", request.Email)
                                .Replace("{{Password}}", OTP);
+
+            // HTML Body
+            var builder = new BodyBuilder
+            {
+                HtmlBody = template
+            };
+            email.Body = builder.ToMessageBody();
+
+            using (var smtp = new SmtpClient())
+            {
+                await smtp.ConnectAsync(_smtpSettings.Host, _smtpSettings.Port, SecureSocketOptions.StartTls);
+                await smtp.AuthenticateAsync(_smtpSettings.UserName, _smtpSettings.Password);
+                await smtp.SendAsync(email);
+                await smtp.DisconnectAsync(true);
+            }
+
+            return true;
+        }
+
+        public async Task<bool> ForgetPasswordMail(string Email, string Username, string Password)
+        {
+            var mailtemplate = await _dbContext.EmailTemplates.FirstOrDefaultAsync(x => x.Name == "ForgetPassword");
+
+            var email = new MimeMessage();
+            email.From.Add(new MailboxAddress("Support", _smtpSettings.From));
+            email.To.Add(new MailboxAddress("", Email));
+            var subject = mailtemplate?.Subject;
+            subject = subject?.Replace("{{UserName}}", Username);
+            email.Subject = subject;
+            var template = mailtemplate?.Body;
+
+            template = template?.Replace("{{FirstName}}", Username)
+                               .Replace("{{UserName}}", Email)
+                               .Replace("{{Password}}", Password);
 
             // HTML Body
             var builder = new BodyBuilder

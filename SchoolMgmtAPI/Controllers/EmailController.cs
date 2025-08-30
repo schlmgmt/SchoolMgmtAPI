@@ -16,7 +16,7 @@ namespace SchoolMgmtAPI.Controllers
             _emailService = emailService;
         }
 
-        [HttpPost]
+        [HttpPost("AddNewEmail")]
         public async Task<IActionResult> AddEmailTemplate(AddEmailTemplateViewModel request)
         {
             if (!ModelState.IsValid)

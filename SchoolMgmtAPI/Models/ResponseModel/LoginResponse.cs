@@ -1,6 +1,6 @@
 ﻿using SchoolMgmtAPI.Models.DbModel;
 
-namespace SchoolMgmtAPI.Models
+namespace SchoolMgmtAPI.Models.ResponseModel
 {
     public class LoginResponse
     {

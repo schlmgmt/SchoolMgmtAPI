@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Net;
-using SchoolMgmtAPI.Models;
 using SchoolMgmtAPI.Models.DbModel;
+using SchoolMgmtAPI.Models.ResponseModel;
 using SchoolMgmtAPI.Services.IService;
 
 namespace SchoolMgmtAPI.Services.Service

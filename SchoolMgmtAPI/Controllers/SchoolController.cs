@@ -15,7 +15,7 @@ namespace SchoolMgmtAPI.Controllers
             _schoolService = schoolService;
         }
 
-        [HttpPost]
+        [HttpPost("AddNewSchool")]
         public async Task<IActionResult> CreateSchool(AddSchoolViewModel request)
         {
             if (!ModelState.IsValid)

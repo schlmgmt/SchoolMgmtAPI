@@ -15,7 +15,7 @@ namespace SchoolMgmtAPI.Controllers
             _userService = userService;
         }
 
-        [HttpPost]
+        [HttpPost("AddNewUser")]
         public async Task<IActionResult> CreateUser([FromBody] AddUserViewModel request)
         {
             if (!ModelState.IsValid)

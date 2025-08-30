@@ -1,9 +1,9 @@
 ﻿using SchoolMgmtAPI.Models.DbModel;
 using SchoolMgmtAPI.Models.ViewModel;
-using SchoolMgmtAPI.Models;
 using SchoolMgmtAPI.Services.IService;
 using AutoMapper;
 using System.Net;
+using SchoolMgmtAPI.Models.ResponseModel;
 
 namespace SchoolMgmtAPI.Services.Service
 {

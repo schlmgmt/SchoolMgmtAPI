@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace SchoolMgmtAPI.Models
+namespace SchoolMgmtAPI.Models.ResponseModel
 {
     public class APIResponseModel<T>
     {
