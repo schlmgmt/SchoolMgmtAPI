@@ -33,5 +33,20 @@ namespace SchoolMgmtAPI.Controllers
             return BadRequest(response);
 
         }
+
+        [HttpPost("GetAllUsers")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var response = await _userService.GetAllUsers();
+
+            if (response.code == System.Net.HttpStatusCode.OK)
+            {
+                return Ok(response);
+            }
+
+            return BadRequest(response);
+
+        }
+
     }
 }

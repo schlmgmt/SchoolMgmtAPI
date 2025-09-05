@@ -21,6 +21,18 @@ namespace SchoolMgmtAPI.Services.Service
             _mapper = mapper;
             _emailService = emailService;
         }
+
+        public async Task<APIResponseModel<List<Users>>> GetAllUsers()
+        {
+            var users = await _dbContext.Users.ToListAsync();
+            return new APIResponseModel<List<Users>>()
+            {
+                data = users,
+                code = System.Net.HttpStatusCode.OK,
+                message = "Users fetched successfully"
+            };
+        }
+
         public async Task<APIResponseModel<Users>> AddUser(AddUserViewModel request)
         {
             var existingUser = await _dbContext.Users.FirstOrDefaultAsync(x => x.Email == request.Email);

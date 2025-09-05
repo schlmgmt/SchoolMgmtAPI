@@ -7,5 +7,7 @@ namespace SchoolMgmtAPI.Services.IService
     public interface IUserService
     {
         Task<APIResponseModel<Users>> AddUser(AddUserViewModel request);
+        Task<APIResponseModel<List<Users>>> GetAllUsers();
+        
     }
 }
