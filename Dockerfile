@@ -1,10 +1,10 @@
 # Base runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0.3 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 80
 
 # Build stage
-FROM mcr.microsoft.com/dotnet/sdk:8.0.3 AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Copy project files and restore to leverage cache
