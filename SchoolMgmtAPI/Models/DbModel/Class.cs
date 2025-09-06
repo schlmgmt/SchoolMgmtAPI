@@ -8,8 +8,8 @@ namespace SchoolMgmtAPI.Models.DbModel
         public int ClassId {  get; set; }
         public int SchoolId { get; set; }
         public string ClassName { get; set; }
-        public DateTimeOffset CreatedAt { get; set; }
-        public DateTimeOffset UpdatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
         public int CreatedBy { get; set; }
         public int UpdatedBy { get; set; }
     }

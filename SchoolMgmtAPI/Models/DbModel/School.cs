@@ -13,8 +13,8 @@ namespace SchoolMgmtAPI.Models.DbModel
         public int Pincode { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
-        public DateTimeOffset CreatedAt { get; set; }
-        public DateTimeOffset UpdatedAt { get; set;  }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set;  }
         public int CreatedBy { get; set; }
         public int UpdatedBy { get; set; }
     }
