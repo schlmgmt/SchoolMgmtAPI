@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolMgmtAPI.Models.ViewModel;
 using SchoolMgmtAPI.Services.IService;
@@ -16,6 +17,7 @@ namespace SchoolMgmtAPI.Controllers
             _emailService = emailService;
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost("AddNewEmail")]
         public async Task<IActionResult> AddEmailTemplate(AddEmailTemplateViewModel request)
         {

@@ -1,8 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SchoolMgmtAPI.Models.ResponseModel;
 using SchoolMgmtAPI.Models.ViewModel;
 using SchoolMgmtAPI.Services.IService;
+using SchoolMgmtAPI.Services.Service;
 
 namespace SchoolMgmtAPI.Controllers
 {
@@ -24,15 +26,43 @@ namespace SchoolMgmtAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
+            var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
+            var response = await _authservice.Login(request, ip);
 
-            var response = await _authservice.Login(request);
-
-            if (response == null)
+            if (response.code != System.Net.HttpStatusCode.OK)
             {
-                return BadRequest(ModelState);
+                return Unauthorized("Invalid credentials");
             }
 
+            Response.Cookies.Append("refreshToken", response.data.RefreshToken, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTime.UtcNow.AddDays(7)
+            });
+
             return Ok(response);
+        }
+
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> RefreshToken(string RefreshToken)
+        {
+            var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
+            var result = await _authservice.RefreshTokenAsync(RefreshToken, ip);
+
+            if (result == null)
+                return Unauthorized();
+
+            Response.Cookies.Append("refreshToken", result.data.RefreshToken, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTime.UtcNow.AddDays(7)
+            });
+
+            return Ok(Response);
         }
 
         [HttpPost("ForgetPassword")]
@@ -54,6 +84,21 @@ namespace SchoolMgmtAPI.Controllers
 
         }
 
+        [Authorize]
+        [HttpPost("revoke")]
+        public async Task<IActionResult> Revoke(string RefreshToken)
+        {
+            var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
+            var success = await _authservice.RevokeTokenAsync(RefreshToken, ip);
+
+            if (!success)
+                return NotFound();
+
+            Response.Cookies.Delete("refreshToken");
+            return Ok();
+        }
+
+        [Authorize]
         [HttpPost("ChangePassword")]
         public async Task<IActionResult> ChangePassword(ChangePasswordViewModel request)
         {

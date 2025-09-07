@@ -17,39 +17,17 @@ namespace SchoolMgmtAPI.Services.Service
         private IConfiguration _config;
         private AppDbContext _dbContext;
         private IEmailService _emailService;
+        private ITokenService _tokenService;
 
-        public AuthService(IConfiguration config, AppDbContext dbContext, IEmailService emailService)
+        public AuthService(IConfiguration config, AppDbContext dbContext, IEmailService emailService, ITokenService tokenService)
         {
             _config = config;
             _dbContext = dbContext;
             _emailService = emailService;
+            _tokenService = tokenService;
         }
 
-        public string GenerateToken(string userId, string email, string role)
-        {
-            var claims = new[]
-            {
-            new Claim(JwtRegisteredClaimNames.Sub, userId),
-            new Claim(JwtRegisteredClaimNames.Email, email),
-            new Claim(ClaimTypes.Role, role),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-            };
-
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: _config["Jwt:Issuer"],
-                audience: _config["Jwt:Audience"],
-                claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(Convert.ToDouble(_config["Jwt:ExpireMinutes"])),
-                signingCredentials: creds
-            );
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
-
-        public async Task<APIResponseModel<LoginResponse>>Login(LoginViewModel request)
+        public async Task<APIResponseModel<LoginResponse>>Login(LoginViewModel request, string IpAddress)
         {
             var user = await _dbContext.Users.FirstOrDefaultAsync(x => x.Email == request.Email);
 
@@ -72,13 +50,27 @@ namespace SchoolMgmtAPI.Services.Service
             }
 
             var role = await _dbContext.Roles.FirstOrDefaultAsync(x => x.RoleId == user.RoleId);
-            var token = GenerateToken(user.UserId.ToString(), request.Email, role.RoleName);
 
+            var accessToken = await _tokenService.GenerateAccessToken(user);
+            var refreshToken = _tokenService.GenerateRefreshToken();
+
+            var refreshEntity = new RefreshToken
+            {
+                TokenHash = _tokenService.HashToken(refreshToken),
+                Expires = DateTime.UtcNow.AddDays(int.Parse(_config["Jwt:RefreshTokenExpiryDays"])),
+                Created = DateTime.UtcNow,
+                CreatedByIp = IpAddress,
+                UserId = user.UserId
+            };
+
+            await _dbContext.RefreshToken.AddAsync(refreshEntity);
+            await _dbContext.SaveChangesAsync();
 
             var loginres = new LoginResponse()
             {
-                token = token,
-                user = user,
+                AccessToken = accessToken,
+                RefreshToken = refreshToken,
+                User = user,
             };
 
             return new APIResponseModel<LoginResponse>()
@@ -87,6 +79,66 @@ namespace SchoolMgmtAPI.Services.Service
                 message = "Logged in successfully",
                 data = loginres
             };
+        }
+
+        public async Task<APIResponseModel<LoginResponse>> RefreshTokenAsync(string refreshToken, string ipAddress)
+        {
+            var hash = _tokenService.HashToken(refreshToken);
+            var entity = await _dbContext.RefreshToken.Include(r => r.UserId)
+                .SingleOrDefaultAsync(t => t.TokenHash == hash);
+
+            if (entity == null || !entity.IsActive)
+                return null;
+
+            // revoke old token
+            entity.Revoked = DateTime.UtcNow;
+            entity.RevokedByIp = ipAddress;
+
+            var user = await _dbContext.Users.FirstOrDefaultAsync(x => x.UserId == entity.UserId);
+
+            // create new
+            var newRefreshToken = _tokenService.GenerateRefreshToken();
+            var newEntity = new RefreshToken
+            {
+                TokenHash = _tokenService.HashToken(newRefreshToken),
+                Expires = DateTime.UtcNow.AddDays(7),
+                Created = DateTime.UtcNow,
+                CreatedByIp = ipAddress,
+                UserId = entity.UserId
+            };
+            entity.ReplacedByTokenHash = newEntity.TokenHash;
+
+            await _dbContext.RefreshToken.AddAsync(newEntity);
+            await _dbContext.SaveChangesAsync();
+
+            var response =  new LoginResponse()
+            {
+                AccessToken = await _tokenService.GenerateAccessToken(user),
+                RefreshToken = newRefreshToken,
+                User = user,
+            };
+
+            return new APIResponseModel<LoginResponse>()
+            {
+                data = response,
+                code = System.Net.HttpStatusCode.OK,
+                message = "Token refresh successfully"
+            };
+        }
+
+        public async Task<bool> RevokeTokenAsync(string refreshToken, string ipAddress)
+        {
+            var entity = await _dbContext.RefreshToken
+                .SingleOrDefaultAsync(t => t.TokenHash == _tokenService.HashToken(refreshToken));
+
+            if (entity == null || !entity.IsActive)
+                return false;
+
+            entity.Revoked = DateTime.UtcNow;
+            entity.RevokedByIp = ipAddress;
+
+            await _dbContext.SaveChangesAsync();
+            return true;
         }
 
         public async Task<APIResponseModel<bool>> ForgotPassword(string Email)

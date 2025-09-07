@@ -1,4 +1,5 @@
 ﻿using System.Runtime.CompilerServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolMgmtAPI.Models.ViewModel;
@@ -17,6 +18,7 @@ namespace SchoolMgmtAPI.Controllers
             _roleService = roleService;
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost("AddNewRole")]
         public async Task<IActionResult> CreateRole([FromBody] AddRoleViewModel Request)
         {

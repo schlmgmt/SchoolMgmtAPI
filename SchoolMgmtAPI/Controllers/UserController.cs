@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SchoolMgmtAPI.Models.ViewModel;
 using SchoolMgmtAPI.Services.IService;
 
@@ -15,6 +16,7 @@ namespace SchoolMgmtAPI.Controllers
             _userService = userService;
         }
 
+        [Authorize]
         [HttpPost("AddNewUser")]
         public async Task<IActionResult> CreateUser([FromBody] AddUserViewModel request)
         {
@@ -34,6 +36,7 @@ namespace SchoolMgmtAPI.Controllers
 
         }
 
+        [Authorize]
         [HttpPost("GetAllUsers")]
         public async Task<IActionResult> GetAllUsers()
         {

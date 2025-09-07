@@ -4,7 +4,8 @@ namespace SchoolMgmtAPI.Models.ResponseModel
 {
     public class LoginResponse
     {
-        public string token { get; set; }
-        public Users user {  get; set; }
+        public string AccessToken { get; set; }
+        public string RefreshToken { get; set; }
+        public Users User {  get; set; }
     }
 }
