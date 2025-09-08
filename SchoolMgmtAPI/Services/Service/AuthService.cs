@@ -8,7 +8,6 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using static System.Net.WebRequestMethods;
 
 namespace SchoolMgmtAPI.Services.Service
 {
@@ -84,8 +83,7 @@ namespace SchoolMgmtAPI.Services.Service
         public async Task<APIResponseModel<LoginResponse>> RefreshTokenAsync(string refreshToken, string ipAddress)
         {
             var hash = _tokenService.HashToken(refreshToken);
-            var entity = await _dbContext.RefreshToken.Include(r => r.UserId)
-                .SingleOrDefaultAsync(t => t.TokenHash == hash);
+            var entity = await _dbContext.RefreshToken.FirstOrDefaultAsync(x => x.TokenHash == hash);
 
             if (entity == null || !entity.IsActive)
                 return null;

@@ -62,7 +62,7 @@ namespace SchoolMgmtAPI.Controllers
                 Expires = DateTime.UtcNow.AddDays(7)
             });
 
-            return Ok(Response);
+            return Ok(result);
         }
 
         [HttpPost("ForgetPassword")]

@@ -8,8 +8,8 @@
         public DateTime Created { get; set; }
         public string CreatedByIp { get; set; }
         public DateTime? Revoked { get; set; }
-        public string RevokedByIp { get; set; }
-        public string ReplacedByTokenHash { get; set; } // hash of the new token if rotated
+        public string? RevokedByIp { get; set; }
+        public string? ReplacedByTokenHash { get; set; } // hash of the new token if rotated
         public int UserId { get; set; }                 // reference to user (adjust type to your user key)
         public bool IsActive => Revoked == null && DateTime.UtcNow < Expires;
     }
